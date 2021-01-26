@@ -1,0 +1,25 @@
+#background {
+	-fx-fill: black;
+}
+
+#background2 {
+	-fx-fill: white;
+}
+
+#backgroundOnMouse {
+	-fx-fill: gray;
+}
+
+#background2OnMouse {
+	-fx-fill: gray;
+}
+
+#cellAlive {
+	visibility:visible;
+	-fx-fill: black;
+}
+
+#cellDeath {
+	visibility: hidden;
+}
+

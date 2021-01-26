@@ -1,0 +1,53 @@
+.root {
+	-fx-background-color: black;
+	-fx-padding: 20px;
+	-fx-font-family: Impact;
+	-fx-font-size: 30px;
+	-fx-spacing: 35px;
+}
+
+.label {
+	-fx-text-fill: white;
+	-fx-padding: 0 10px 0 0;
+}
+
+.text-field {
+	-fx-text-fill: black;
+	-fx-font-size: 20px;
+}
+
+.slider {
+	-fx-text-fill: white;
+	-fx-show-tick-labels: true;
+	-fx-show-tick-marks: true;
+	-fx-major-tick-unit: 5;
+	-fx-minor-tick-count: 4;
+	-fx-pref-width: 1020px;
+	-fx-block-increment: 1;
+	-fx-snap-to-ticks: true;
+}
+
+#infoLabel {
+	-fx-text-fill: #44cae7;
+}
+
+#generationTimeSlider {
+	-fx-major-tick-unit: 200;
+	-fx-minor-tick-count: 3;
+	-fx-pref-width: 1020px;
+	-fx-block-increment: 100;
+	-fx-snap-to-ticks: true;
+}
+
+.button {
+	-fx-text-fill: #000000;
+	-fx-font-size: 50px;
+	-fx-background-radius: 5px;
+	-fx-cursor: hand;
+	-fx-pref-width: 200px;
+	-fx-background-color: #44cae7;
+}
+
+.button:hover {
+	-fx-effect: dropshadow(three-pass-box, rgba(255,255,255, 0.9), 15, 0, 0, 0);
+}

@@ -1,0 +1,27 @@
+.root {
+	-fx-background-color: black;
+	-fx-font-family: Impact;
+	-fx-font-size: 20px;
+	-fx-spacing: 25px;
+	-fx-alignment: top-center;
+}
+
+#gameChooseLabel {
+	-fx-text-fill: white;
+	-fx-padding: 20px 0 0 0;
+}
+
+
+
+
+.button {
+	-fx-text-fill: #000000;
+	-fx-font-size: 30px;
+	-fx-background-radius: 5px;
+	-fx-background-color: #44cae7;
+	-fx-cursor: hand;
+	-fx-pref-width: 300px;
+}
+.button:hover {
+	-fx-effect: dropshadow(three-pass-box, rgba(255,255,255, 0.9), 15, 0, 0, 0);
+}

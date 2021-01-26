@@ -1,0 +1,66 @@
+.root {
+	-fx-background-color: #000000;
+	-fx-spacing:15px;
+	-fx-font-family: Impact;
+	-fx-padding: 20px;
+	}
+	
+.grid {
+	-fx-alignment: center;
+}
+
+#gridInExecution {
+	-fx-cursor: crosshair;
+}
+
+#gridInBreak {
+	-fx-cursor: wait;
+}
+
+.bottomBox {
+	-fx-padding: 0 0 0 10px;
+}
+
+.button {
+	-fx-text-fill: #000000;
+	-fx-font-size: 25px;
+	-fx-background-radius: 5px;
+	-fx-cursor: hand;
+	-fx-pref-width: 110px;
+	-fx-background-color: #666666;
+}
+
+.label {
+	-fx-padding: 8px 0 0 0;
+	-fx-text-fill: white;
+	-fx-font-size: 25px;
+}
+
+.button:hover {
+	-fx-effect: dropshadow(three-pass-box, rgba(255,255,255, 0.9), 15, 0, 0, 0);
+}
+
+#menuButton {
+	-fx-graphic: url(../images/backIcon.png);
+	-fx-pref-width: 130px;
+}
+
+#savePatternButton {
+	-fx-pref-width: 200px;
+}
+
+#startButton {
+	-fx-background-color: #00ff35;
+}
+
+#stopButton {
+	-fx-background-color: #ff0035;
+}
+
+#generationTextLabel {
+	-fx-padding: 8px 5px 0 210px;
+}
+
+#spaceLabel {
+	-fx-padding: 0 20px 0 0;
+}
